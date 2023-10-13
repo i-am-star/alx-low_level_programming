@@ -25,18 +25,17 @@ void times_table(void)
 
 			if(total < 10)
 			{
-			_putchar(total + '0');
+				_putchar(total + '0');
+				 _putchar(',');
+				  _putchar(' ');
+				   _putchar(' ');
 			}
 			else
 			{
 				_putchar(total / 10 + '0');
 				_putchar(total % 10 + '0');
-			}
-			
-			if (j < 9)
-			{
-			_putchar(',');
-			_putchar(' ');
+				 _putchar(',');
+				  _putchar(' ');
 			}
 			j++;
 		}
