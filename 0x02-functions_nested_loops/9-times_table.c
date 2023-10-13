@@ -4,11 +4,11 @@
 #include "main.h"
 
 /**
-* void times_table(void) - Entry point
+* times_table - prints the multiplication table from 0 - 9
 *
 * Description: What your code does goes here
 *
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* Return: void
 */
 
 void times_table(void)
@@ -23,7 +23,7 @@ void times_table(void)
 		{
 			int total = i * j;
 
-			if(total < 10)
+			if (total < 10)
 			{
 				_putchar(total + '0');
 				 _putchar(',');
