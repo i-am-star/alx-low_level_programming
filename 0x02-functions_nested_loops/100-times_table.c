@@ -25,7 +25,7 @@ void print_times_table(int n)
 			{
 				int prod = x * j;
 
-				if (prod < 10)
+				if (j != 0 && prod < 10)
 				{
 					printf("  ");
 				}
