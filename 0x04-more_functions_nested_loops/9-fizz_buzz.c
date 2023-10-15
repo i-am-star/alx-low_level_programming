@@ -35,7 +35,10 @@ int main(void)
 
 			if (i < 100)
 				printf(" ");
+			else
+			{
+				 printf("\n");
+			}
 		}
-	printf("\n");
 	return (0);
 }
