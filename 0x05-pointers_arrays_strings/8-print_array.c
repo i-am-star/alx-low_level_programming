@@ -12,6 +12,7 @@
 *
 * Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
 */
+
 void print_array(int *a, int n)
 {
 	int i;
@@ -20,7 +21,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (a[i] != a[4])
+		if (i < n - 1)
 			printf(", ");
 	}
 	printf("\n");
