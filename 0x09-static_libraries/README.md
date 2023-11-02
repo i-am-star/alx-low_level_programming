@@ -20,3 +20,7 @@ The last stage is the linking. At this stage, we add the library files to our pr
 When the compilation process of a C source file ends at the assembly stage, The file becomes an object file.
 
 In C, a library file is another file that contains several object files, and it is made up of useful and reusable code. The library is indexed. That way, it is easier to find symbols in them. There are two types of libraries - static libraries and dynamic libraries.
+
+## Static libraries
+
+Static libraries are files that contains several object files that are linked into the program during the linking stage of compilation. It allows us to link many files and use themas a single entity.
