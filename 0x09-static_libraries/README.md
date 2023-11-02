@@ -32,18 +32,24 @@ The command "ar" which means archiver is used to create static library files.
 To create a library file:
 
 1. first you convert your source files into object files using the following commands
+
 	gcc -c -Wall -Wextra -Werror *.c
+
 This will convert all the files in your directory that has a.c extention to object files that has .o extentions.
 
 2. The second step is to create a static library using the "ar" and "rc" command.
+
 	ar rc libnewlibrary.a *.o
 
 3. The third step is to index our library using the "ranlib"command.
+
 	ranlib libnewlibrary.a
 
 4. To see the object files inside our library
+
 	ar -t libnewlibrary.a
 
 5. Finally, to use our library in a program
+
 	gcc main.c -L -lnewlibrary -o output
 
