@@ -39,7 +39,7 @@ This will convert all the files in your directory that has a**.c** extention to 
 
 2. The second step is to create a static library using the **"ar"** and **"rc"** command.
 
-	`ar rc libnewlibrary.a *.o`
+                 `ar rc libnewlibrary.a *.o`
 
 3. The third step is to index our library using the **"ranlib"** command.
 
