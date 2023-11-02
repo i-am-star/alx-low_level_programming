@@ -16,7 +16,6 @@ The third stage is the assembling and here, the file is converted into a languag
 The last stage is the linking. At this stage, we add the library files to our program. It combines the object code of alrealdy existing library files with the object code of our program. This code is then stored in another file called an executable file and ends with *.exe* or *a.out* depending on your operating system.
 
 ## What are libraries?
----
 
 When the compilation process of a C source file ends at the assembly stage, The file becomes an object file.
 
