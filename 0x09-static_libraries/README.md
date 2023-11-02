@@ -1,5 +1,4 @@
 ## STATIC LIBRARIES IN C
----
 
 The compilation process in C involves four steps:
 
