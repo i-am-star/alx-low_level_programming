@@ -1,4 +1,4 @@
-# STATIC LIBRARIES IN C
+#STATIC LIBRARIES IN C
 
 The compilation process in C involves four steps:
 
@@ -57,4 +57,4 @@ This will convert all the files in your directory that has a**.c** extention to 
 ### Example
 
 #### step one: Create a header file that will contain your prototypes. I created mine and named it main.h
-		 ![main.h file](Screenshot(151).png)
+![main.h file](Screenshot(151).png)
