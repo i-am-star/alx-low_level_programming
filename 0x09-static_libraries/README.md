@@ -57,4 +57,4 @@ This will convert all the files in your directory that has a**.c** extention to 
 ### Example
 
 #### step one: Create a header file that will contain your prototypes. I created mine and named it main.h
-![header](https://github.com/i-am-star/alx-low_level_programming/assets/120747573/6a700e26-c409-4b62-810e-7701bc56d682)
+<img src = "https://drive.google.com/file/d/1pWNVzPlBv9xGl_GxN__fsi6flK79LZrr/view?usp=sharing">
