@@ -60,3 +60,7 @@ Example
 https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y
  ![tex](https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y)
 <img src = "https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y">
+
+<p>
+<img src="/0x09-static_libraries/header.png">
+</p>
