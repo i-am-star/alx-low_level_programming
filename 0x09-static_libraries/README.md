@@ -57,6 +57,6 @@ This will convert all the files in your directory that has a**.c** extention to 
 Example
 
  step one: Create a header file that will contain your prototypes. I created mine and named it main.h
-
- 
+https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y
+ ![tex](https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y)
 <img src = "https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y">
