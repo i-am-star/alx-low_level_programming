@@ -33,7 +33,7 @@ To create a library file:
 
 1. first you convert your source files into object files using the following commands
 
-	      `gcc -c -Wall -Wextra -Werror *.c`
+	       `gcc -c -Wall -Wextra -Werror *.c`
 
 This will convert all the files in your directory that has a**.c** extention to object files that has **.o** extentions.
 
@@ -43,13 +43,13 @@ This will convert all the files in your directory that has a**.c** extention to 
 
 3. The third step is to index our library using the **"ranlib"** command.
 
-	`ranlib libnewlibrary.a`
+	         `ranlib libnewlibrary.a`
 
 4. To see the object files inside our library
 
-	`ar -t libnewlibrary.a`
+	         `ar -t libnewlibrary.a`
 
 5. Finally, to use our library in a program
 
-	`gcc main.c -L -lnewlibrary -o output`
+	         `gcc main.c -L -lnewlibrary -o output`
 
