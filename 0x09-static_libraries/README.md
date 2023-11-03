@@ -53,3 +53,8 @@ This will convert all the files in your directory that has a**.c** extention to 
 
 	         `gcc main.c -L -lnewlibrary -o output`
 
+
+### Example
+
+#### step one: Create a header file that will contain your prototypes. I created mine and named it main.h
+		 ![main.h file](Screenshot(151).png)
