@@ -1,3 +1,7 @@
+
+![alt text](0x09-static_libraries/header.png)
+
+
 # STATIC LIBRARIES IN C
 
 The compilation process in C involves four steps:
