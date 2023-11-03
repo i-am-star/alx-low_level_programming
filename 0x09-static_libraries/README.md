@@ -1,4 +1,4 @@
-#STATIC LIBRARIES IN C
+# STATIC LIBRARIES IN C
 
 The compilation process in C involves four steps:
 
@@ -54,7 +54,9 @@ This will convert all the files in your directory that has a**.c** extention to 
 	         `gcc main.c -L -lnewlibrary -o output`
 
 
-### Example
+Example
 
  step one: Create a header file that will contain your prototypes. I created mine and named it main.h
+
+ 
 <img src = "https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y">
