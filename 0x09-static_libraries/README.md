@@ -188,7 +188,7 @@ Step Eight: Run your program
 <br>
 
 #### Task 0: A library is not a luxury but one of the necessities of life
-<br>
+
 For this task, i am expected to Create the static library libmy.a containing all the functions listed below
 
  Step One: I create a header file called [main.h](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/main.h) and add these prototypes to the file
