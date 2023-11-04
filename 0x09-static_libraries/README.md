@@ -58,17 +58,15 @@ Example
 
  step one: Create a header file that will contain your prototypes. I created mine and named it main.h
 
-		```c
+		```
 		#ifndef MAIN_H
-
 		#define MAIN_H
-
 		#include <stdio.h>
 
 		int add(int a, int b);
-
 		int sub(int a, int b);
 
 		#endif /* MAIN_H */
+
 		```
 
