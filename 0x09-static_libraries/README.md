@@ -100,3 +100,30 @@ This will convert all the files in your directory that has a**.c** extention to 
 		}
 
 		```
+
+ step three: create two sepearate files and define the functions you called inside the main.c file. In my own case, add_num.c adds two numbers and sub_num.c subtracts two numbers.
+
+ for add_num.c
+
+ 		
+ 		```
+		#include "main.h"
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <math.h>
+		#include <string.h>
+		#include <time.h>
+
+		/**
+		  * add - Entry point
+		  *
+		  * @a: first parameter
+		  * @b: second parameter
+		  *
+		  * Return: a + b
+		  */
+
+		int add(int a, int b)
+{
+		return (a + b);
+}
