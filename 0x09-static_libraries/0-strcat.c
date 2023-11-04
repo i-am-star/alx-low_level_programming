@@ -1,36 +1,31 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <string.h>
 #include "main.h"
 
 /**
-* _strcat - Entry point
-*
-* @dest: What your code does goes here
-* @src: second parameter
-*
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* *_strcat - function commute srtings
+* @dest: param pointer to a char
+* @src: param pointer to a char
+* Return: return value of dest
 */
 
 char *_strcat(char *dest, char *src)
 {
-	int len1 = 0;
-	int len2 = 0;
 	int i;
+	int j;
 
-	while (dest[len1] != '\0')
-		len1++;
+	i = 0;
+	j = 0;
 
-	while (src[len2] != '\0')
+	while (dest[i] != '\0')
 	{
-		len2++;
+		i++;
+	}
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
 	}
 
-	for (i = 0; i <= len2; i++)
-	{
-		dest[len1 + i] = src[i];
-	}
-
+	dest[i] = '\0';
 	return (dest);
 }

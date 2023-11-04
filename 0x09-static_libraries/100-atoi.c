@@ -1,25 +1,34 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <string.h>
-#include <time.h>
 #include "main.h"
 
 /**
-* _atoi - Entry point
-*
-* @s: What your code does goes here
-*
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* _atoi - converts a string to an integer.
+* @s: input string.
+* Return: integer.
 */
-
 int _atoi(char *s)
 {
-	int len = 0;
+	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
 
-	while (s[len] != '\0')
-		len++;
-	printf("%d", len);
+	while (*(s + count) != '\0')
+	{
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+			break;
+		if (*(s + count) == '-')
+			pn *= -1;
 
-	return (0);
+		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+		{
+			if (size > 0)
+				m *= 10;
+			size++;
+		}
+		count++;
+	}
+
+	for (i = count - size; i < count; i++)
+	{
+		oi = oi + ((*(s + i) - 48) * m);
+		m /= 10;
+	}
+	return (oi * pn);
 }

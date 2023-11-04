@@ -1,24 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 #include "main.h"
-
 /**
-* _isalpha - checks for letters, uppercase or lowercase
-*
-* @c: parameter
-*
-* Return: 1 if letter, uppercase or lowercase. else 0.
+* _isalpha - Check if character is a alphabet character.
+* @c: type int character
+* Return: 1 if letter, lowercase or uppercase, and 0 otherwise
 */
 
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 122)
-	{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
-	}
+
 	else
-	{
 		return (0);
-	}
 }

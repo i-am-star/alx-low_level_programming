@@ -1,41 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <string.h>
 #include "main.h"
-#include <time.h>
-
 /**
-* _strcmp - Entry point
-*
-* @s1: What your code does goes here
-* @s2: second param
-*
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* _strcmp - compares two strings
+* @s1: first string.
+* @s2: second string.
+* Return: 0 if s1 and s2 are equals,
+* another number if not.
 */
 int _strcmp(char *s1, char *s2)
 {
-	int len1, len2, res, i;
+	int i = 0, op = 0;
 
-	len1 = strlen(s1);
-	len2 = strlen(s2);
-	res = 0;
-	i = 0;
-
-	while (s1[i] != '\0')
+	while (op == 0)
 	{
-		if (s1[i] != s2[i])
-		{
-			res = s1[i] - s2[i];
+		if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
 			break;
-		}
+		op = *(s1 + i) - *(s2 + i);
 		i++;
 	}
 
-	if (res == 0 && len1 != len2)
-	{
-		res = s2[i] * -1;
-	}
-
-	return (res);
+	return (op);
 }
