@@ -124,6 +124,33 @@ This will convert all the files in your directory that has a**.c** extention to 
 		  */
 
 		int add(int a, int b)
-{
-		return (a + b);
-}
+		{
+			return (a + b);
+		}
+
+		```
+
+ for sub_num.c
+
+ 		```
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <math.h>
+		#include <string.h>
+		#include "main.h"
+		#include <time.h>
+
+		/**
+		  * main - Entry point
+		  *
+		  * Description: What your code does goes here
+		  *
+		  * Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+		  */
+
+		int sub(int a, int b)
+		{
+			return (a - b);
+		}
+
+**NOTE: #include "main.h" links the function prototype to other c files. In this case the function calling (main.c), and function definition (add_num) (sub_num)**		```
