@@ -33,7 +33,7 @@ To create a library file:
 
 1. first you convert your source files into object files using the following commands
 
-	       `gcc -c -Wall -Wextra -Werror *.c`
+	        ` gcc -c -Wall -Wextra -Werror *.c `
 
 This will convert all the files in your directory that has a**.c** extention to object files that has **.o** extentions.
 
