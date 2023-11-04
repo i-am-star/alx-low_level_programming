@@ -181,5 +181,7 @@ Step Eight: Run your program
 
 *voila!!!*
 
+<br>
+<br>
 
-##			TASKS
+<h2 align = "center"> TASKS </h2>
