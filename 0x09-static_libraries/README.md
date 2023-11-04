@@ -153,4 +153,6 @@ This will convert all the files in your directory that has a**.c** extention to 
 			return (a - b);
 		}
 
-**NOTE: #include "main.h" links the function prototype to other c files. In this case the function calling (main.c), and function definition (add_num) (sub_num)**		```
+		```
+
+**NOTE: #include "main.h" links the function prototype to other c files. In this case the function calling (main.c), and function definition (add_num) (sub_num)**
