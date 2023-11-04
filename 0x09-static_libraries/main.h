@@ -1,5 +1,5 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int _isupper(int c);
@@ -22,4 +22,4 @@ void _puts(char *str);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
-#endif /* MAIN_H_ */
+#endif /* MAIN_H */
