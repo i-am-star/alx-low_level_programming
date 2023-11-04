@@ -56,7 +56,7 @@ This will convert all the files in your directory that has a**.c** extention to 
 
 #### Example
 
- step one: Create a header file that will contain your prototypes. I created mine and named it main.h
+ Step One: Create a header file that will contain your prototypes. I created mine and named it [main.h](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/sta_tic/main.h)
 
 		```
 		#ifndef MAIN_H
@@ -69,7 +69,7 @@ This will convert all the files in your directory that has a**.c** extention to 
 		#endif /* MAIN_H */
 
 		```
- step two: Create a file that will call your funtions. I named mine main.c
+ Step Two: Create a file that will call your funtions. I named mine [main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/sta_tic/main.c)
 
  		```
 		#include "main.h"
@@ -101,7 +101,7 @@ This will convert all the files in your directory that has a**.c** extention to 
 
 		```
 
- step three: create two sepearate files and define the functions you called inside the main.c file. In my own case, add_num.c adds two numbers and sub_num.c subtracts two numbers.
+ Step Three: Create two sepearate files and define the functions you called inside the main.c file. In my own case, [add_num.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/sta_tic/add_num.c) adds two numbers and [sub_num.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/sta_tic/sub_num.c) subtracts two numbers.
 
  for add_num.c
 
@@ -157,24 +157,24 @@ This will convert all the files in your directory that has a**.c** extention to 
 
 **NOTE: #include "main.h" links the function prototype to other c files. In this case the function calling (main.c), and function definition (add_num) (sub_num)**
 
- step four: compile all c files to assembly stage
+ Step Four: Compile all c files to assembly stage
 
  		`gcc -c -Wall -Wextra -Werror *.c`
 
 This will create main.o, add_num.o, and sub_num.o object files.
 
- step five: create a static library with the compiled object file
+ Step Five: Create a static library with the compiled object file
 
  		`ar -rc libnewlibrary.a *.o`
 
- step six: Index the static library to make it faster to look up symbols inside the library
+ Step Six: Index the static library to make it faster to look up symbols inside the library
 
  		`ranlib libnewlibrary.a`
 
- step seven: To use your new library in a program
+ Step Seven: To use your new library in a program
 
  		`gcc main.c -L. -lnewlibrary -o output`
 
-step eight: Run your program
+Step Eight: Run your program
 
  		`./output`
