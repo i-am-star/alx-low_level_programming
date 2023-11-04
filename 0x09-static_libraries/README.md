@@ -57,7 +57,9 @@ This will convert all the files in your directory that has a**.c** extention to 
 Example
 
  step one: Create a header file that will contain your prototypes. I created mine and named it main.h
-		`#ifndef MAIN_H
+
+		```c
+		#ifndef MAIN_H
 
 		#define MAIN_H
 
@@ -67,5 +69,6 @@ Example
 
 		int sub(int a, int b);
 
-		#endif /* MAIN_H */`
+		#endif /* MAIN_H */
+		```
 
