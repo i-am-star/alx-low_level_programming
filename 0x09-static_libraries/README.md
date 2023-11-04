@@ -189,7 +189,7 @@ Step Eight: Run your program
 
 #### Task 0: A library is not a luxury but one of the necessities of life
 
-First i create a main.h file that contains certain prototypes
+ Step One: I create a header file called [main.h](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/main.h) and add these prototypes to the file
 
 	```
 	int _putchar(char c);
@@ -214,4 +214,25 @@ First i create a main.h file that contains certain prototypes
 	char *_strstr(char *haystack, char *needle);
 
 	```
+ Step Two: I copy the C source files where these function prototypes are defined from their previous directories to the 0x09-static_libraries directory
 
+ 		* [0-isupper.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/0-isupper.c)
+		* [0-memset.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/0-memset.c)
+		* [0-strcat.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/0-strcat.c)
+		* [1-isdigit.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/1-isdigit.c)
+		* [1-memcpy.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/1-memcpy.c)
+		* [1-strncat.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/1-strncat.c)
+		* [100-atoi.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/100-atoi.c)
+		* [2-strchr.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/2-strchr.c)
+		* [2-strlen.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/2-strlen.c)
+		* [2-strncpy.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/strncpy.c)
+		* [3-islower.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/3-islower.c)
+		* [3-puts.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/3-puts.c)
+		* [3-strcmp.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/3-strcmp.c)
+		* [3-strspn.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/strspn.c)
+		* [4-isalpha.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/4-isalpha.c)
+		* [4-strpbrk.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/4-strpbrk.c)
+		* [5-strstr.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/5-strstr.c)
+		* [6-abs.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/6-abs.c)
+		* [9-strcpy.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/9-strcpy.c)
+		* [_putchar.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/_putchar.c)
