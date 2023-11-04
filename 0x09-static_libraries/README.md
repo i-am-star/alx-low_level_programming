@@ -156,3 +156,25 @@ This will convert all the files in your directory that has a**.c** extention to 
 		```
 
 **NOTE: #include "main.h" links the function prototype to other c files. In this case the function calling (main.c), and function definition (add_num) (sub_num)**
+
+ step four: compile all c files to assembly stage
+
+ 		`gcc -c -Wall -Wextra -Werror *.c`
+
+This will create main.o, add_num.o, and sub_num.o object files.
+
+ step five: create a static library with the compiled object file
+
+ 		`ar -rc libnewlibrary.a *.o`
+
+ step six: Index the static library to make it faster to look up symbols inside the library
+
+ 		`ranlib libnewlibrary.a`
+
+ step seven: To use your new library in a program
+
+ 		`gcc main.c -L. -lnewlibrary -o output`
+
+step eight: Run your program
+
+ 		`./output`
