@@ -54,7 +54,7 @@ This will convert all the files in your directory that has a**.c** extention to 
 	         `gcc main.c -L -lnewlibrary -o output`
 
 
-Example
+#### Example
 
  step one: Create a header file that will contain your prototypes. I created mine and named it main.h
 
@@ -69,4 +69,34 @@ Example
 		#endif /* MAIN_H */
 
 		```
+ step two: Create a file that will call your funtions. I named mine main.c
 
+ 		```
+		#include "main.h"
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <math.h>
+		#include <string.h>
+		include <time.h>
+
+		/**
+		  * main - Entry point
+		  *
+		  * Description: calls two functions
+		  *
+		  * Return: Always 0 (Success)
+		  */
+
+		int main(void)
+		{	
+			int sum = add(30, 20);
+
+			int subtraction = sub(30, 20);
+
+			printf("result is: %d\n", sum);
+			printf("result is: %d\n", subtraction);
+
+			return (0);
+		}
+
+		```
