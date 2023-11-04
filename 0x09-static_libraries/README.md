@@ -1,5 +1,4 @@
-[![Screenshot-20231104-002422.png](https://i.postimg.cc/ht2XgrCt/Screenshot-20231104-002422.png)](https://postimg.cc/cv8xBQyp)
-
+![Screenshot-20231104-002422.png](https://i.postimg.cc/ht2XgrCt/Screenshot-20231104-002422.png)
 
 ![alt text](0x09-static_libraries/header.png)
 
