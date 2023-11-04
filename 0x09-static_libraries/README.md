@@ -1,8 +1,3 @@
-![Screenshot-20231104-002422.png](https://i.postimg.cc/ht2XgrCt/Screenshot-20231104-002422.png)
-
-![alt text](0x09-static_libraries/header.png)
-
-
 # STATIC LIBRARIES IN C
 
 The compilation process in C involves four steps:
@@ -62,14 +57,15 @@ This will convert all the files in your directory that has a**.c** extention to 
 Example
 
  step one: Create a header file that will contain your prototypes. I created mine and named it main.h
-https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y
- ![tex](https://unsplash.com/photos/blue-and-pink-light-illustration-LeG68PrXA6Y)
-<img src = "https://unsplash.com/photos/blue-and-pink-
+		`#ifndef MAIN_H
 
-<br>
+		#define MAIN_H
 
-![alt text](0x09-static_libraries/header.png)
+		#include <stdio.h>
 
+		int add(int a, int b);
 
-[![Screenshot-20231104-002422.png](https://i.postimg.cc/ht2XgrCt/Screenshot-20231104-002422.png)](https://postimg.cc/cv8xBQyp)
+		int sub(int a, int b);
+
+		#endif /* MAIN_H */`
 
