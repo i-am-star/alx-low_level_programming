@@ -214,7 +214,7 @@ Step Eight: Run your program
 		char *_strstr(char *haystack, char *needle);
 
 	```
- Step Two: I copy the C source files where these function prototypes are defined from their previous directories to the 0x09-static_libraries directory
+ Step Two: I copy the source files where these function prototypes are defined from their previous directories to the 0x09-static_libraries directory
 
 - [0-isupper.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/0-isupper.c)
 - [0-memset.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/0-memset.c)
