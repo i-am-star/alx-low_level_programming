@@ -238,3 +238,22 @@ For this task, i am expected to Create the static library libmy.a containing all
 - [6-abs.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/6-abs.c)
 - [9-strcpy.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/9-strcpy.c)
 - [putchar.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/_putchar.c)
+
+ Step Three: I convert all the copied files in the current directory into an object file
+
+		gcc -c -Wall -Wextra -Werror *.c
+
+ Step Four: I create a static library and add all the object files in the current directory 
+
+		ar rc libmy.a *.o
+
+ Step Five: I index my static library
+
+ 		ranlib libmy.a
+
+ Step Six: I create another function and store it in a file called [main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x09-static_libraries/main.c)
+
+ Step Seven: I convert it to an object file
+
+ 		gcc -c -Wall -Wextra -Werror main.c
+
