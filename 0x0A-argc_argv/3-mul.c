@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	int tonum1;
 	int tonum2;
 
-		if (argc >= 2)
+		if (argc == 3)
 		{
 			tonum1 = atoi(argv[1]);
 
