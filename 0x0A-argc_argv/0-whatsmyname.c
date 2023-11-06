@@ -1,17 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
+#include <string.h>
+#include <time.h>
 
 /**
-* main - Prints the name of the program followed by a new line
-* @argc: count of the arguments of the program
-* @argv: array of argc
-* Return: Always 0
+* main - Entry point
+*
+* @argc: number of arguments
+* @argv: string
+*
+* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
 */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-if (argc >= 1)
-printf("%s\n", argv[0]);
+	argc = argc;
 
-return (0);
+	printf("%s\n", argv[0]);
+
+	return (0);
 }
