@@ -1,4 +1,4 @@
-<h1 text-align = "center">MEMORY ALLOCATION IN C</h1>
+<h1 align = "center">MEMORY ALLOCATION IN C</h1>
 
 Memory allocation is the process of setting aside or reserving sections or parts of memory in a program to be used to store variables, and instances of structures and classes.
 
