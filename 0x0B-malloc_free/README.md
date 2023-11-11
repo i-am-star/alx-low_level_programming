@@ -40,7 +40,7 @@ Example:
 
 ## Tasks
 
-*0. Float like a butterfly, sting like a bee*
+**0. Float like a butterfly, sting like a bee**
 
 Write a function that creates an array of chars, and initializes it with a specific char.
 
@@ -51,7 +51,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 Solution: [0-create_array.c](https://github.com/i-am-star/alx-low_level_programming/tree/master/0x0B-malloc_free/100-argstostr.c/0-create_array.c)
 
 
-*1. The woman who has no imagination has no wings*
+**1. The woman who has no imagination has no wings**
 
 Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
@@ -62,7 +62,7 @@ Write a function that returns a pointer to a newly allocated space in memory, wh
 
 Solution: [1-strdup.c](https://github.com/i-am-star/alx-low_level_programming/tree/master/0x0B-malloc_free/100-argstostr.c/1-strdup.c)
 
-*2. He who is not courageous enough to take risks will accomplish nothing in life*
+**2. He who is not courageous enough to take risks will accomplish nothing in life**
 
 Write a function that concatenates two strings.
 
@@ -73,7 +73,7 @@ Write a function that concatenates two strings.
 
 Solution: [2-str_concat.c](https://github.com/i-am-star/alx-low_level_programming/tree/master/0x0B-malloc_free/100-argstostr.c/2-str_concat.c)
 
-*3. If you even dream of beating me you'd better wake up and apologize*
+**3. If you even dream of beating me you'd better wake up and apologize**
 
 Write a function that returns a pointer to a 2 dimensional array of integers.
 
@@ -84,7 +84,7 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
 
 Solution: [3-alloc_grid.c](https://github.com/i-am-star/alx-low_level_programming/tree/master/0x0B-malloc_free/100-argstostr.c/3-alloc_grid.c)
 
-*4. It's not bragging if you can back it up*
+**4. It's not bragging if you can back it up**
 
 Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
@@ -93,7 +93,7 @@ Write a function that frees a 2 dimensional grid previously created by your allo
 
 solution: [4-free_grid.c](https://github.com/i-am-star/alx-low_level_programming/tree/master/0x0B-malloc_free/100-argstostr.c/4-free_grid.c)
 
-*5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe*
+**5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe**
 
 Write a function that concatenates all the arguments of your program.
 
@@ -104,7 +104,7 @@ Write a function that concatenates all the arguments of your program.
 
 Solution: [100-argstostr.c](https://github.com/i-am-star/alx-low_level_programming/tree/master/0x0B-malloc_free/100-argstostr.c)
 
-*6. I will show you how great I am*
+**6. I will show you how great I am**
 
 Write a function that splits a string into words.
 
