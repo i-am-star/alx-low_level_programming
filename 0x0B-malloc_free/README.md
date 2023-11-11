@@ -22,7 +22,7 @@ There are four functions found in the stdlib.h header file that help in dynamic 
 
 ### malloc()
 
-malloc() is a method in C used to allocate a memory block(empty space)in the heap section of the memory during the run-time(execution) of a C program. It takes sizein bytes as an argument and returns a void pointer, so we have to type cast(convert) the malloc() function to the required data type. malloc() does not initialise the allocated memory block, so initially it contains a garbage value.
+malloc() is a method in C used to allocate a memory block(empty space) in the heap section of the memory during the run-time(execution) of a C program. It takes sizein bytes as an argument and returns a void pointer, so we have to type cast(convert) the malloc() function to the required data type. malloc() does not initialise the allocated memory block, so initially it contains a garbage value.
 
 Syntax:
 
