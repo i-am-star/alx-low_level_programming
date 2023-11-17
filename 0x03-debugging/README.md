@@ -6,5 +6,8 @@ B
 
 <br>
 
+<blockquote align = "center"> <b><i>"Stepping outside of yourself and reflecting on your code from a different perspective helps in revealing our own flawed and distorted assumptions and understanding." MOHAMMAD DAUD IBRAHIM</b></i> </blockquote>
+<br>
+
 Debugging is the process of finding and removing bugs(errors) in computer programs.
 
