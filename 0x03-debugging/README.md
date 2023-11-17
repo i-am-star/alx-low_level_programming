@@ -1,4 +1,3 @@
-B
 <h1 align = "center">DEBUGGING</h1>
 <br>
 
@@ -9,5 +8,15 @@ B
 <blockquote align = "center"> <b><i>"Stepping outside of yourself and reflecting on your code from a different perspective helps in revealing our own flawed and distorted assumptions and understanding." MOHAMMAD DAUD IBRAHIM</b></i> </blockquote>
 <br>
 
-Debugging is the process of finding and removing bugs(errors) in computer programs.
+Debugging is the process of finding and removing bugs(errors) in computer programs. It involves identifying a problem, isolating the source of the problem and then either correcting the problem or determining a way to work around it. The final step of debugging is to test the correction or workaround and make sure it works.
+
+## Tasks
+
+0. Multiple mains
+Based on the main.c file above, create a file named 0-main.c. This file must test that the function positive_or_negative() gives the correct output when given a case of 0.
+
+- You are not coding the solution / function, you’re just testing it! However, you can adapt your function from 0x01. C - Variables, if, else, while - Task #0 to compile with this main file to test locally.
+
+- You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function.
+- You are not allowed to add or remove lines of code, you may change only one line in this task.
 
