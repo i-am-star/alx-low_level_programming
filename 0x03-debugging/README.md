@@ -21,6 +21,9 @@ Based on the main.c file above, create a file named 0-main.c. This file must tes
 - You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function.
 - You are not allowed to add or remove lines of code, you may change only one line in this task.
 
+solution: [0-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/0-main.c)
+---
+
 
 **1. Like, comment, subscribe**
 
