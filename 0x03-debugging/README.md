@@ -21,7 +21,7 @@ Based on the main.c file above, create a file named 0-main.c. This file must tes
 - You only need to upload 0-main.c and main.h for this task. We will provide our own positive_or_negative() function.
 - You are not allowed to add or remove lines of code, you may change only one line in this task.
 
-solution: [0-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/0-main.c)
+Solution: [0-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/0-main.c)
 
 ---
 
@@ -33,6 +33,6 @@ Copy this main file. Comment out (don’t delete it!) the part of the code that 
 - Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
 - You do not have to compile with -Wall -Werror -Wextra -pedantic for this task.
 
-solution: [1-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/1-ma    in.c)
+Solution: [1-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/1-ma    in.c)
 
 ---
