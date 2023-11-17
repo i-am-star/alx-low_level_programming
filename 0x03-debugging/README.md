@@ -45,6 +45,6 @@ Fix the code in 2-largest_number.c so that it correctly prints out the largest o
 
 - Line count will not be checked for this task.
 
-Solution: [2-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/2-ma    in.c) [2-largest_number.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c) [main.h](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/main.h)
+Solution: [2-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/2-main.c) [2-largest_number.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c) [main.h](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/main.h)
 
 ---
