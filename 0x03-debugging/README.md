@@ -36,3 +36,15 @@ Copy this main file. Comment out (don’t delete it!) the part of the code that 
 Solution: [1-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/1-main.c)
 
 ---
+
+**2. 0 > 972?**
+
+This program prints the largest of three integers.
+
+Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
+
+- Line count will not be checked for this task.
+
+Solution: [2-main.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/2-ma    in.c) [2-largest_number.c](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c) [main.h](https://github.com/i-am-star/alx-low_level_programming/blob/master/0x03-debugging/main.h)
+
+---
