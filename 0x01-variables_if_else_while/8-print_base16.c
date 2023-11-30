@@ -18,7 +18,7 @@ int main(void)
 
 	while (hex_num < 16)
 	{
-		if(hex_num < 10)
+		if (hex_num < 10)
 		{
 			putchar(hex_num + '0');
 		}
@@ -27,7 +27,7 @@ int main(void)
 
 	while (num <= 5)
 	{
-		if(num <= 5)
+		if (num <= 5)
 		{
 			putchar(num + 'a');
 		}
