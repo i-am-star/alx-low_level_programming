@@ -6,9 +6,9 @@
 /**
 * main - Entry point
 *
-* Description: What your code does goes here
+* Description: Prints number from 0 - 9
 *
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* Return: 0
 */
 int main(void)
 {
