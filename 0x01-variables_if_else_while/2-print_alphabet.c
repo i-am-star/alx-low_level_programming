@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "main.h"
 #include <time.h>
+
 /**
 * main - Entry point
 *
