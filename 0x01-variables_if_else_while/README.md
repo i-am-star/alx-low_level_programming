@@ -31,7 +31,9 @@
 
 Operators are special symbols used to perform certain mathematical and logical functions in C. They are Arithmetic Operators, relational Operators, logical Operators, bitwise Operators, assignment Operators, etc.
 
-- **Arithemetic operator:** This operator performs mathematical and arithemetic opearations on operands. They are of two types, unary operators and binary operators. unary operators carry out operation on single operands. Examples of this type of operator are increment and decrement operators (++, --) The increment operator increases a value by one, and the decrement operator decreases the value by one. Binary operators carryout operations on two values. they are addition (+), subtraction (-), multiplication (*), and division (/) operators.
+- **Arithemetic operators:** These operators perform mathematical and arithemetic opearations on operands. They are of two types, unary operators and binary operators. unary operators carry out operation on single operands. Examples of this type of operator are increment and decrement operators (++, --) The increment operator increases a value by one, and the decrement operator decreases the value by one. Binary operators carryout operations on two values. they are addition (+), subtraction (-), multiplication (*), and division (/) operators.
+
+- **Logical operators:** Logical operators are used to combine two or more conditions. They always produce results in a boolean value, i.e., either true or false. The various types of logical operators are the logical AND operator (&&) that returns true only if all conditions are true, the logical OR operator (||) that returns true if either one of the conditions is true, and the logical NOT operator that returns true only if the condition is false.
 
 
 ---
