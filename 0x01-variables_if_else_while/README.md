@@ -23,6 +23,8 @@
 - How to print variables using printf
 - What is the ASCII character set
 - What are the purpose of the gcc flags -m32 and -m64
+---
+
 
 ## Operators in C (Arithmetic operators, Logical operators, Relational operators)
 
@@ -31,6 +33,7 @@ Operators are special symbols used to perform certain mathematical and logical f
 - *Arithemetic operator:* This operator performs mathematical and arithemetic opearations on operands. They are of two types, unary operators and binary operators. unary operators carry out operation on single operands. Examples of this type of operator are increment and decrement operators (++, --) The increment operator increases a value by one, and the decrement operator decreases the value by one. Binary operators carryout operations on two values. they are addition (+), subtraction (-), multiplication (*), and division (/) operators.
 
 
+---
 
 ## Variables in C
 A variable is a container that is used to store or hold values. When a variable is created, space is allocated inside the memory for that value, and how much space that is allocated to a variable all depends on the type of value it will hold.
