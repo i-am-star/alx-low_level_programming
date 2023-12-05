@@ -1,5 +1,7 @@
 <h1 align = "center">0x01. C - Variables, if, else, while</h1>
 
+* For this lesson, we covered certain C concepts such as Keywords and identifiers, integers, Arithmetic Operators in C, If statements in C, if…else statement, Relational operators, Logical operators, while loop in C, While loop
+
 ## Learning Objectives
 
 #### At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
