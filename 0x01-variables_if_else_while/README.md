@@ -38,6 +38,9 @@ Example:
 			int a = 5;
 			int b = 10;
 			int sum = a + b;
+			int sub = b - a;
+			int prod = a * b;
+			int div = b / a;
 ~~~
 - **Logical operators:** Logical operators are used to combine two or more conditions. They always produce results in a boolean value, i.e., either true or false. The various types of logical operators are the logical AND operator (&&) that returns true only if all conditions are true, the logical OR operator (||) that returns true if either one of the conditions is true, and the logical NOT operator (!) that returns true only if the condition is false.
 
