@@ -14,38 +14,30 @@ int main(void)
 {
 	int num1 = 0;
 
-	while (num1 < 10)
+	while (num1 < 99)
 	{
 		int num2 = 0;
 
-		while (num2 < 9)
+		while (num2 <= 99)
 		{
-			int num3 = 0;
+			int div_num1 = num1 / 10;
+			int mod_num1 = num1 % 10;
+			int div_num2 = num2 / 10;
+			int mod_num2 = num2 % 10;
 
-			while (num3 < 10)
+			if (num1 != num2)
 			{
-				int num4 = 0;
+				putchar(div_num1 + '0');
+				putchar(mod_num1 + '0');
+				putchar(' ');
+				putchar(div_num2 + '0');
+				putchar(mod_num2 + '0');
 
-				while (num4 < 10)
+				if (num1 != 98 || num2 != 99)
 				{
-					if (num1 + num2 + num3 + num4 != 0)
-					{
-						putchar(num1 + '0');
-						putchar(num2 + '0');
-						putchar(' ');
-						putchar(num3 + '0');
-						putchar(num4 + '0');
-
-						if (num1 + num2 + num3 +
-							num4 != 35)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					num4++;
+					putchar(',');
+					putchar(' ');
 				}
-				num3++;
 			}
 			num2++;
 		}
