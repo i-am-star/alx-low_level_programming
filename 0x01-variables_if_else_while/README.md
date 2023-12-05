@@ -5,4 +5,4 @@ A variable is a container that is used to store or hold values. When a variable 
 
 To use a variable, we declare it and assign a value to it. For exapmle to declare a variable that will contain an integer number:
 
-` 		int num = 20; `
+`			int num = 20;			`
