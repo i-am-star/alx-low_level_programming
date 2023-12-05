@@ -1,3 +1,4 @@
+B
 <h1 align = "center">0x01. C - Variables, if, else, while</h1>
 
 *For this lesson, we covered certain C concepts such as Keywords and identifiers, integers, Arithmetic Operators in C, If statements in C, if…else statement, Relational operators, Logical operators, and while loop in C.*
@@ -35,14 +36,30 @@ Operators are special symbols used to perform certain mathematical and logical f
 
 Example:
 ~~~C
-			int a = 5;
-			int b = 10;
-			int sum = a + b;
-			int sub = b - a;
-			int prod = a * b;
-			int div = b / a;
+	int a = 5;
+	int b = 10;
+	int sum = a + b;
+	int sub = b - a;
+	int prod = a * b;
+	int div = b / a;
 ~~~
 - **Logical operators:** Logical operators are used to combine two or more conditions. They always produce results in a boolean value, i.e., either true or false. The various types of logical operators are the logical AND operator (&&) that returns true only if all conditions are true, the logical OR operator (||) that returns true if either one of the conditions is true, and the logical NOT operator (!) that returns true only if the condition is false.
+
+Example:
+~~~C
+	int a = 10;
+	int b = 20;
+	if (a < b && b > a) {
+		printf("%d is lesser than %d\n", a, b);
+	}
+	if (b > a || a < b) {
+		printf("A value is greater\n");
+	}
+	if (a != b){
+		printf("%d is not equal to %d\n", a, b);
+	}
+~~~
+
 
 - **Relational operators:** Relational operators are used for comparison. The relational operators in C are Equal to (==), Greater than (>), Less than (<), Not equal to (!=), Greater than or equal to (>=), Less than or equal to (<=).
 
