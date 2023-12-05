@@ -25,7 +25,7 @@ int main(void)
 			int div_num2 = num2 / 10;
 			int mod_num2 = num2 % 10;
 
-			if (num1 != num2)
+			if (num1 != num2 && num2 != 0)
 			{
 				putchar(div_num1 + '0');
 				putchar(mod_num1 + '0');
