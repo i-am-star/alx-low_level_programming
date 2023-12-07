@@ -8,7 +8,7 @@
 * main - Entry point
 *
 * Description: a function that prints the alphabet,
-* in lowercase, followed by a new line
+* @void: returns void
 *
 * Return: 0
 */
