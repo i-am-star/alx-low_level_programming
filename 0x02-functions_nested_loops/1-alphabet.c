@@ -7,8 +7,7 @@
 /**
 * main - Entry point
 *
-* Description: a function that prints the alphabet,
-* @void: returns void
+* Description: a function that prints the alphabet
 *
 * Return: 0
 */
