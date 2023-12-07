@@ -3,6 +3,7 @@
 #include <math.h>
 #include <string.h>
 #include "main.h"
+#include <limits.h>
 #include <time.h>
 /**
 * print_last_digit - a function that prints the last digit of a number.
@@ -13,15 +14,12 @@
 */
 int print_last_digit(int n)
 {
+	int last_num = n % 10;
+
 	if (n < 0)
 	{
-		n = n * -1;
-		n = n % 10;
+		last_num = last_num * -1;
 	}
-	else
-	{
-		n = n % 10;
-	}
-	_putchar(n + '0');
-	return (n);
+	_putchar(last_num + '0');
+	return (last_num);
 }
