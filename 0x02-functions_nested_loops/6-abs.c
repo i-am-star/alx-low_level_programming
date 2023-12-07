@@ -5,9 +5,8 @@
 #include "main.h"
 #include <time.h>
 /**
-* main - Entry point
+* _abs - This function computes the absolute value of an integer
 *
-* _abs: a function that computes the absolute value of an integer.
 * @n: parameter
 *
 * Return: Always 0
