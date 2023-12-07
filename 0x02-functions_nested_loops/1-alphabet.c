@@ -5,7 +5,7 @@
 #include <string.h>
 #include <time.h>
 /**
-* print_alphabe - Entry point
+* print_alphabet - Entry point
 *
 * Description: a function that prints the alphabet
 *
