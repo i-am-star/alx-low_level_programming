@@ -24,10 +24,6 @@ void sum_of_multiples(int c, int d)
 		{
 			sum = sum + n;
 		}
-		/**if (n % d == 0)
-		{
-			sum2 = sum2 + n;
-		}**/
 	}
 	printf("%d\n", sum);
 }
