@@ -11,7 +11,7 @@ int main(void)
 	int i, n = 50;
 	unsigned long sum = 0, a = 0, b = 1;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i < n; i++)
 	{
 		sum = a + b;
 
