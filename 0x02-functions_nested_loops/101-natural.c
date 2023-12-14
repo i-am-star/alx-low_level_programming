@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
 * main - Entry point
-* sum_of_multiples - second function
 *
 * Description: Prints the sum of multilples of 3 and 5
+* @c: first parameter
+* @d: second parameter
 *
 * Return: 0 and sum
 */
@@ -14,6 +15,15 @@ int main(void)
 
 	return (0);
 }
+/**
+* sum_of_multiples - Entry point
+*
+* Description: Prints the sum of multilples of 3 and 5
+* @c: first parameter
+* @d: second parameter
+*
+* Return: void
+*/
 void sum_of_multiples(int c, int d)
 {
 	int n, sum = 0;
