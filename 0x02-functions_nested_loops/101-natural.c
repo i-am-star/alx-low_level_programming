@@ -7,16 +7,14 @@
 *
 * Return: 0 and sum
 */
-int sum_of_multiples(int c, int d);
+void sum_of_multiples(int c, int d);
 int main(void)
 {
-	int result = sum_of_multiples(3, 5);
-
-	printf("%d\n", result);
+	sum_of_multiples(3, 5);
 
 	return (0);
 }
-int sum_of_multiples(int c, int d)
+void sum_of_multiples(int c, int d)
 {
 	int n, sum = 0;
 
@@ -24,8 +22,12 @@ int sum_of_multiples(int c, int d)
 	{
 		if (n % c == 0 || n % d == 0)
 		{
-			sum = n + n;
+			sum = sum + n;
 		}
+		/**if (n % d == 0)
+		{
+			sum2 = sum2 + n;
+		}**/
 	}
-	return (sum);
+	printf("%d\n", sum);
 }
