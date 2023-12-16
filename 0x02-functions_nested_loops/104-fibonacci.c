@@ -16,7 +16,7 @@ int main(void)
 
 		printf("%lu", sum);
 
-		if (i < 98)
+		if (i <= 97)
 		{
 			printf(", ");
 		}
