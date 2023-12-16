@@ -8,22 +8,24 @@
 */
 int main(void)
 {
-	int a = 0, b = 1;
+	int a = 0, i = 0;
 
-	unsigned long i, sum = 0, value_limit = 4000000;
-	
-	for (i = 0; i < value_limit; i++)
+	unsigned long b = 1, sum = 0, running_sum = 0, value_limit = 4000000;
+
+	for (i = 0; b < value_limit; i++)
 	{
 		sum = a + b;
 
 		if (sum % 2 == 0)
 		{
-			printf("%lu, ", sum);
+			if (sum < value_limit)
+			running_sum = running_sum + sum;
 		}
 
 		a = b;
 		b = sum;
 	}
+	printf("%lu", running_sum);
 	printf("\n");
 	return (0);
 }
