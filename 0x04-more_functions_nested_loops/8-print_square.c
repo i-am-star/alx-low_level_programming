@@ -1,29 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 #include "main.h"
-
+#include <time.h>
 /**
 * print_square - Entry point
 *
-* @size: What your code does goes here
+* Description: prints a square
+* @size: parameter
 *
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* Return: void
 */
-
 void print_square(int size)
 {
-	int i, j;
+	int i = 1;
 
 	if (size <= 0)
 		_putchar('\n');
-
-	for (i = 1; i <= size; i++)
+	else
 	{
-		for (j = 1; j <= size; j++)
+		for (; i <= size; i++)
 		{
-			_putchar('#');
+			int j = 1;
+
+			for (; j <= size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
