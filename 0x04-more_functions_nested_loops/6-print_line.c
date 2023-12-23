@@ -1,22 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 #include "main.h"
-
+#include <time.h>
 /**
 * print_line - Entry point
 *
-* @n: What your code does goes here
+* Description:  function that draws a straight line in the terminal.
+* @n: parameter
 *
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* Return: void
 */
-
 void print_line(int n)
 {
-	while (n > 0)
+	int  i = 1;
+
+	if (n > 0)
 	{
-		_putchar('_');
-		n--;
+		for (; i <= n; i++)
+		{
+			_putchar('_');
+		}
 	}
 	_putchar('\n');
 }
