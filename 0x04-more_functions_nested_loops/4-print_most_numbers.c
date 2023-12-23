@@ -1,26 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 #include "main.h"
-
+#include <time.h>
 /**
 * print_most_numbers - Entry point
 *
-* Description: What your code does goes here
+* Description: prints numbers from 0 - 9 except 2 and 4
 *
-* Return: Always 0 (Success) - what your code returns goes here returns 0 or 1
+* Return: void
 */
-
 void print_most_numbers(void)
 {
-	int i;
+	int n = 0;
 
-	for (i = 0; i < 10; i++)
+	for (; n < 10; n++)
 	{
-		if (i != 2 && i != 4)
-		{
-			_putchar(i + '0');
-		}
+		if (n != 2 && n != 4)
+			_putchar(n + '0');
 	}
 	_putchar('\n');
 }
